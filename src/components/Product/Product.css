@@ -1,0 +1,49 @@
+.Product {
+  display: flex;
+  flex: 1 !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.product_image {
+  object-fit: contain;
+  max-height: 200px;
+}
+
+.Product_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.product_rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.addToBasket {
+  margin-top: 10px;
+}
+
+.addToBasket {
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  max-width: 400px;
+  height: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  align-items: center;
+}
